@@ -1,0 +1,40 @@
+{
+  "name": "unicdk",
+  "version": "1.1.3",
+  "description": "one cdk to rule them all.",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3p3r/unicdk.git"
+  },
+  "keywords": [
+    "cdk",
+    "cdk8s",
+    "cdktf",
+    "constructs"
+  ],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3p3r/unicdk/issues"
+  },
+  "homepage": "https://github.com/3p3r/unicdk#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "*",
+    "cdk8s": "*",
+    "cdktf": "*",
+    "constructs": "*"
+  }
+}
